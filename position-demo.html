@@ -1,0 +1,48 @@
+<html>
+
+<head></head>
+<style>
+    div {
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        background-color: #FE4;
+        margin: 10px;
+        position: relative;
+    }
+    
+    #fix {
+        width: 20%;
+        height: 1em;
+        bottom: 0px;
+        right: 0px;
+        color: aliceblue margin;
+        z-index: 50;
+        position: fixed;
+        /*z-index数值越大，element的层级越高*/
+    }
+    
+    span {
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+        background-color: cyan;
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div>
+        <span style="left :0px; top:20px">family</span>
+        <span style="left :100px; top:20px">family</span>
+        <span style="left :200px; top:20px">family</span>
+        <span style="left :300px; top:20px">family</span>
+    </div>
+    <div>div2</div>
+    <div>div3</div>
+    <div id="fix">
+        <a href="#">Top</a>
+    </div>
+</body>
+
+</html>
