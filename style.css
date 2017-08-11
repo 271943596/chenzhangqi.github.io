@@ -1,0 +1,83 @@
+        #div1 {
+            color: white;
+            font-size: 3em;
+            text-align: center;
+            font-family: sans-serif;
+            border-style: 3px sold #333333;
+            background-color: #fafafa;
+            background-image: url("黑白背景.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 20% 0;
+            margin-bottom: 0px；
+        }
+        
+        #div2 {
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            background-image: url("div2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        #div3 {
+            font-family: sans-serif;
+            background-image: url("div4黑白.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        span {
+            display: block;
+        }
+        
+        body {
+            margin: 10px;
+        }
+        
+        #name {
+            margin-top: 50px;
+            font-size: 1.3em;
+        }
+        
+        #ename {
+            font-family: inherit;
+        }
+        
+        #who {
+            border: 5px solid #ba3946;
+            padding: 20px;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            /*框的宽度*/
+            margin: 0 auto;
+            /*居中*/
+            margin-top: 50px;
+            color: #ba3946;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+            font-size: 30px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        #tag {
+            margin-top: 70px;
+            font-size: 30px;
+        }
+        
+        #button {
+            margin-top: 100px;
+            margin-bottom: 80px;
+            font-size: 30px;
+            border-radius: 30px;
+        }
+        
+        #education {
+            margin-top: 0px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            font-size: 50px;
+        }
