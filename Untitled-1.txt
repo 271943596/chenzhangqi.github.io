@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <html> 
+        <head>
+        <script src="echarts-master/echarts.is"></script>
+        </head>
+
+        <body>
+        <p>following is one chart:</P>
+        <div id="main">
+        style="width
+        </div>
+        <script>
+            var myChart=echarts.init(document.get#ElementById("main"))
+
+            
+            </script>
+        </body>
+    </html>

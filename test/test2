@@ -1,0 +1,9 @@
+ html
+
+@media (min-width:768px){
+    #main,ads{
+        height:150px
+
+    }
+    add{}
+}
